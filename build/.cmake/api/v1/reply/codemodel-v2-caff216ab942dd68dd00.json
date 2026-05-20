@@ -1,0 +1,516 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "libs/minhook",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.minhook-Debug-02ead1efa36c59937b0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/minhook",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dx11_texture_debugger",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "minhook",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-3f1663362b906b4e9876.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f600057be3935523e04f",
+					"jsonFile" : "target-ALL_BUILD-Debug-4d4f894baa8fe2d93d88.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-3892ef6d6ab0e40ed81f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dx11_tex_dbg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dx11_tex_dbg-Debug-74b169e1a083b482e1b0.json",
+					"name" : "dx11_tex_dbg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dx11_texture_debugger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dx11_texture_debugger-Debug-6c0ac8603a156fdf9e70.json",
+					"name" : "dx11_texture_debugger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "minhook::@f600057be3935523e04f",
+					"jsonFile" : "target-minhook-Debug-3b927370e33fd7c6f2ae.json",
+					"name" : "minhook",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "libs/minhook",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.minhook-Release-348e5f16a1298d75bd0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/minhook",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dx11_texture_debugger",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "minhook",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-3f1663362b906b4e9876.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f600057be3935523e04f",
+					"jsonFile" : "target-ALL_BUILD-Release-4d4f894baa8fe2d93d88.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-3892ef6d6ab0e40ed81f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dx11_tex_dbg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dx11_tex_dbg-Release-b29f8e46560106b260ea.json",
+					"name" : "dx11_tex_dbg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dx11_texture_debugger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dx11_texture_debugger-Release-5e802039cc6df6fe8857.json",
+					"name" : "dx11_texture_debugger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "minhook::@f600057be3935523e04f",
+					"jsonFile" : "target-minhook-Release-c17d892a6310ab6c326e.json",
+					"name" : "minhook",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "libs/minhook",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.minhook-MinSizeRel-dbc72ad26bcef581cbe8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/minhook",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dx11_texture_debugger",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "minhook",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3f1663362b906b4e9876.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f600057be3935523e04f",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4d4f894baa8fe2d93d88.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-3892ef6d6ab0e40ed81f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dx11_tex_dbg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dx11_tex_dbg-MinSizeRel-7c5a38ea1c99220bd60c.json",
+					"name" : "dx11_tex_dbg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dx11_texture_debugger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dx11_texture_debugger-MinSizeRel-2a0ac155bf0572660eb1.json",
+					"name" : "dx11_texture_debugger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "minhook::@f600057be3935523e04f",
+					"jsonFile" : "target-minhook-MinSizeRel-4d0f7e073de7363fe7d1.json",
+					"name" : "minhook",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "libs/minhook",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.minhook-RelWithDebInfo-4744302620ff6348777d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/minhook",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dx11_texture_debugger",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "minhook",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3f1663362b906b4e9876.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f600057be3935523e04f",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4d4f894baa8fe2d93d88.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-3892ef6d6ab0e40ed81f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dx11_tex_dbg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dx11_tex_dbg-RelWithDebInfo-ed30f633d32db3e4c7ea.json",
+					"name" : "dx11_tex_dbg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dx11_texture_debugger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dx11_texture_debugger-RelWithDebInfo-6d466c12bfe96da2bb04.json",
+					"name" : "dx11_texture_debugger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "minhook::@f600057be3935523e04f",
+					"jsonFile" : "target-minhook-RelWithDebInfo-b7652c70b9f70df2ebf5.json",
+					"name" : "minhook",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build",
+		"source" : "C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

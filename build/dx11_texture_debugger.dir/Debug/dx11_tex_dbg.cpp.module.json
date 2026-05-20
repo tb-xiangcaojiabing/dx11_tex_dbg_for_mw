@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "dx11_texture_debugger.dir\\Debug\\dx11_tex_dbg.obj",
+            "outputs": [
+                "C:\\Users\\925473286\\Downloads\\dx11_tex_dbg_for_mw-main\\build\\dx11_texture_debugger.dir\\Debug\\vc145.pdb",
+                "dx11_texture_debugger.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

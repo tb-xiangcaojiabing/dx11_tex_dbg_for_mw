@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\925473286\Downloads\dx11_tex_dbg_for_mw-main\libs\minhook\src\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\925473286\Downloads\dx11_tex_dbg_for_mw-main\libs\minhook\src\hook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\925473286\Downloads\dx11_tex_dbg_for_mw-main\libs\minhook\src\trampoline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\925473286\Downloads\dx11_tex_dbg_for_mw-main\libs\minhook\src\hde\hde64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\925473286\Downloads\dx11_tex_dbg_for_mw-main\libs\minhook\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4F11BE7D-2013-3F24-A253-D62D4B67421A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

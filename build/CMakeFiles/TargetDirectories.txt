@@ -1,0 +1,8 @@
+C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/CMakeFiles/dx11_tex_dbg.dir
+C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/CMakeFiles/dx11_texture_debugger.dir
+C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/CMakeFiles/INSTALL.dir
+C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/libs/minhook/CMakeFiles/minhook.dir
+C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/libs/minhook/CMakeFiles/INSTALL.dir
+C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/libs/minhook/CMakeFiles/ALL_BUILD.dir

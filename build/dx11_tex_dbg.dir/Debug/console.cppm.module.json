@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "dx11_tex_dbg.dir\\Debug\\console.obj",
+            "outputs": [
+                "C:\\Users\\925473286\\Downloads\\dx11_tex_dbg_for_mw-main\\build\\dx11_tex_dbg.dir\\Debug\\vc145.pdb",
+                "dx11_tex_dbg.dir\\Debug\\",
+                "dx11_tex_dbg.dir\\Debug\\console.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "console",
+                    "source-path": "c:\\users\\925473286\\downloads\\dx11_tex_dbg_for_mw-main\\src\\console.cppm",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

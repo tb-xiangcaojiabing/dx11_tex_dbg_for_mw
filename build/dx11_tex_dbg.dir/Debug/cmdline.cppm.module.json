@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "dx11_tex_dbg.dir\\Debug\\cmdline.obj",
+            "outputs": [
+                "C:\\Users\\925473286\\Downloads\\dx11_tex_dbg_for_mw-main\\build\\dx11_tex_dbg.dir\\Debug\\vc145.pdb",
+                "dx11_tex_dbg.dir\\Debug\\",
+                "dx11_tex_dbg.dir\\Debug\\cmdline.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "cmdline",
+                    "source-path": "c:\\users\\925473286\\downloads\\dx11_tex_dbg_for_mw-main\\src\\cmdline.cppm",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

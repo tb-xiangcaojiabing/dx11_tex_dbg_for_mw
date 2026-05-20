@@ -1,0 +1,10 @@
+^C:\USERS\925473286\DOWNLOADS\DX11_TEX_DBG_FOR_MW-MAIN\BUILD\CMAKEFILES\1D08D38A29710F4F247FC191F611BCF8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main -BC:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/925473286/Downloads/dx11_tex_dbg_for_mw-main/build/dx11_texture_debugger.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
